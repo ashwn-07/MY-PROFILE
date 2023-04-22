@@ -1,0 +1,447 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+    color: aliceblue;
+
+}
+
+
+
+header
+{
+    background-color: rgb(0, 0, 0);
+    height: 60px;
+    position:fixed;
+    width: 100%;
+    margin-top: -40px;
+}
+nav
+{
+    
+    float: right;
+    margin-top: 20px;
+    
+    
+    
+}
+
+
+a
+{
+    color: aliceblue;
+    text-decoration-line: none;
+    margin-left: 70px;
+    font-size: large;
+    letter-spacing: 0.05cm;
+
+ 
+  }
+a:hover
+{
+ font-size: x-large;
+ transition: 0.35s;
+ color: gray;
+ transition-timing-function: ease-out;
+}
+img
+{
+    height: 60px;
+    width: 60px;
+    margin-left: -25px;
+}
+
+div h1
+{
+    color: aliceblue;
+    font-size: 125px;
+    background-color: transparent;
+    margin-top: 40px;
+    margin-left: 60px;
+    padding-top: 35px;
+    position: relative;
+  animation-name: hello2;
+  animation-duration: 2s;
+  
+}
+@keyframes hello2 {
+    0% {
+      left: -40%;
+    }
+    100% {
+      left: 0;
+    }
+  }
+div h3{
+    color: aliceblue;
+    background-color:rgba(0, 0, 0, 0);
+    font-size: 125px;
+    margin-left: 350px;
+    /* position: relative; */
+  animation-name: hello3;
+  animation-duration: 2s;
+}
+
+ @keyframes hello3 {
+    0% {
+        transform:translateY(-600%)
+      }
+      100% {
+        transform:translateY(0%)
+      }
+
+ }
+ 
+ h4 
+{
+    display:flex;
+    justify-content: center; 
+    align-items: center; 
+    color: aliceblue;
+    margin-top: 25px;
+    font-size: 30px;
+
+}
+
+.filler-section
+{
+  color: aliceblue;
+  font-size:30px;
+  letter-spacing: 0.03cm;
+  padding-top: 48px;
+ background-color: transparent;
+ 
+}
+.bg-img
+{
+  height: 250px;
+  width: 750px;
+  margin: auto;
+  margin-top: 0px;
+  border-radius: 1.5rem;
+  text-align: center;
+  background-color:black;
+  
+}
+
+.qabout
+{
+  color: aliceblue;
+  font-family:system-ui;
+  line-height: 1.6;
+  
+}
+.know-more
+{
+  background-color: transparent;
+
+  
+}
+.info
+{
+  margin-left: 0;
+  background-color:transparent;
+  
+}
+.more{
+  color: rgb(255, 255, 255);
+  background-color: rgb(93, 89, 89);
+  border-radius: 5px;
+  border: none;
+  margin-top: 15px;
+  
+  font-size: medium;
+  padding: 8px 5px;
+ 
+  letter-spacing: 1.5px;
+}
+ div h4{
+  letter-spacing: 0.05cm;
+
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+ }
+.about-me
+{ 
+
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-top: 30px;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  /* text-align: center; */
+  font-size: 25px;
+  letter-spacing: 0.04cm;
+  line-height: 2;
+  background-color: transparent;
+  font-family: 'Mulish', sans-serif;
+  
+}
+.my-skills
+{
+  margin-top: 75px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.skills{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+
+}
+.h-logo
+{
+  margin-top: 30px;
+  height: 100px;
+  width: 100px;
+}
+.h-head
+{
+  font-size: 40px;
+  letter-spacing: 1.3mm;
+  font-family:'Gill Sans';
+  padding-top: 20px;
+  margin-right: 40px;
+
+}
+.c-logo
+{
+  margin-left: 40px;
+  margin-top: 30px;
+  height: 100px;
+  width: 85px;
+
+  
+}
+.c-head
+{
+  font-size: 40px;
+  letter-spacing: 1.3mm;
+  font-family:'Gill Sans';
+  padding-top: 20px;
+  margin-left:8px;
+  
+
+}
+.java
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+.j-logo
+{
+  height: 150px;
+  width: 250px;
+}
+.edu-style
+{
+  background-image: url(Images/6222603.jpg);
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 20px;
+  border-radius: 40px;
+  
+
+  
+}
+.b-t
+{
+  
+  background-color: transparent;
+  color: #EFEFEF;
+  letter-spacing: 0.5mm;
+  margin-left: 400px;
+  font-size: 25px;
+  font-family: 'Playfair Display', serif;
+
+}
+.year
+{
+  
+  margin-left: 420px;
+  margin-top: 10px;
+  font-size: 25px;
+  background-color: transparent;
+}
+.college
+{
+  background-color: transparent;
+  margin-top: 20px;
+  margin-left: 400px;
+  font-size: 22px;
+  letter-spacing: 0.5mm;
+}
+.ed-l
+{
+  margin-left: 380px;
+  margin-right: 390px;
+}
+.pro-center
+{
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-bottom:30px;
+}
+.pro-card
+{
+  
+  margin-right: 40px;
+  height: 400px;
+  width: 400px;
+  border: 3rem;
+  border-color: aliceblue;
+  border-radius: 30px;
+  background-image: url(Images/simple-counter-app-design.jpg);
+  background-position-x:80%;
+  background-position-y: 125%;
+  
+}
+
+.pro-title
+{
+  color: rgb(255, 255, 255);
+  background-color: rgba(255, 255, 255, 0);
+  text-align: end;
+  margin-top: 100px;
+  margin-left: 80px;
+}
+
+.pro-card2
+{
+ 
+  margin-right: 40px;
+  height: 400px;
+  width: 400px;
+  border: 3rem;
+  border-color: aliceblue;
+ 
+  border-radius: 30px;
+  background-image: url(Images/questions-1080x675.jpg);
+  background-position-x:200%;
+  background-position-y: 100%;
+}
+.pro-card3
+{
+ 
+  margin-right: 40px;
+  height: 400px;
+  width: 400px;
+  border: 3rem;
+  border-color: aliceblue;
+  border-radius: 30px;
+  background-image: url(Images/wp5076212.jpg);
+  background-position-x:200%;
+  background-position-y: 30%;
+}
+.line
+{
+  height: 7px;
+  background-color: #EFEFEF;
+  margin-left: 75px;
+  margin-right: 75px;
+  border-radius: 1rem;
+ 
+}
+
+.style-connect
+{
+  margin-left: 100px;
+  
+  
+
+}
+.l-logo
+{
+  margin-left: 4px;
+  margin-top: 20px;
+  height: 30px;
+  width:30px;
+}
+
+
+form {
+  background-color: #f7f7f7;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.5);
+  max-width: 500px;
+  margin: 0 auto;
+  
+}
+
+label, input, textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+  color: #000000;
+  background-color:  #f7f7f7;
+  letter-spacing: 0.5mm;
+}
+
+input, textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  background-color: #EFEFEF;
+  color: #333333;
+}
+
+input[type="submit"] {
+  background-color: #333333;
+  color: #FFFFFF;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #555555;
+}
+
+textarea {
+  height: 150px;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+body {
+  background-color: #000000;
+  color: #5d5757;
+}
+footer {
+  background-color: #464343;
+  color: hsl(0, 0%, 100%);
+  padding: 3px;
+  margin-top: 200px;
+  
+  
+  text-align: center;
+  
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+
+.footer-bottom {
+  margin-top: 20px;
+}
