@@ -8,7 +8,6 @@
 }
 
 
-
 header
 {
     background-color: rgb(0, 0, 0);
@@ -22,7 +21,7 @@ nav
     
     float: right;
     margin-top: 20px;
-    
+    display: none;
     
     
 }
@@ -30,6 +29,7 @@ nav
 
 a
 {
+
     color: aliceblue;
     text-decoration-line: none;
     margin-left: 70px;
@@ -55,6 +55,424 @@ img
 div h1
 {
     color: aliceblue;
+    font-size: 75px;
+    background-color: transparent;
+    margin-top: 40px;
+    margin-left: 10px;
+    padding-top: 35px;
+    position: relative;
+  animation-name: hello2;
+  animation-duration: 2s;
+  
+}
+@keyframes hello2 {
+  0% {
+    left: -40%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+.row{
+
+  width: 100%; 
+}
+div h3{
+  margin: 0;
+  color: aliceblue;
+  
+  background-color: rgba(0, 0, 0, 0);
+  font-size: 75px;
+  animation-name: hello3;
+  animation-duration: 2s;
+  padding-left: 9px;
+  padding-right: 20px;
+  white-space:nowrap;
+  
+}
+
+@keyframes hello3 {
+  0% {
+      transform:translateY(-600%)
+    }
+    100% {
+      transform:translateY(0%)
+    }
+
+}
+
+h4 
+{
+  display:flex;
+  justify-content: center; 
+  align-items: center; 
+  color: rgb(255, 255, 255);
+  margin-top: 25px;
+  font-size: 30px;
+
+}
+
+.filler-section
+{
+color: aliceblue;
+
+width:100%;
+
+font-size:30px;
+letter-spacing: 0.03cm;
+padding-top: 48px;
+background-color: transparent;
+
+}
+
+.bg-img
+{
+
+width: 100%;
+
+
+
+margin-left: auto;
+margin-right: auto;
+margin-top: 0px;
+border-radius: 1.5rem;
+text-align: center;
+background-color:rgb(0, 0, 0);
+
+}
+
+.qabout
+{
+
+color: aliceblue;
+font-family:system-ui;
+line-height: 1.6;
+
+}
+.know-more
+{
+background-color: transparent;
+
+
+}
+.info
+{
+margin-left: 0;
+background-color:transparent;
+
+}
+.more{
+color: rgb(255, 255, 255);
+background-color: rgb(93, 89, 89);
+border-radius: 5px;
+border: none;
+margin-top: 15px;
+
+font-size: medium;
+padding: 8px 5px;
+
+letter-spacing: 1.5px;
+}
+div h4{
+letter-spacing: 0.05cm;
+
+font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+.about-me
+{ 
+
+margin-left: 50px;
+margin-right: 50px;
+margin-top: 30px;
+display:flex;
+justify-content: center;
+align-items: center;
+/* text-align: center; */
+font-size: 25px;
+letter-spacing: 0.04cm;
+line-height: 2;
+background-color: transparent;
+font-family: 'Mulish', sans-serif;
+
+}
+.my-skills
+{
+margin-top: 75px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.skills{
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+
+}
+.h-logo
+{
+margin-top: 30px;
+height: 100px;
+width: 100px;
+}
+.h-head
+{
+font-size: 40px;
+letter-spacing: 1.3mm;
+font-family:'Gill Sans';
+padding-top: 20px;
+margin-right: 2%;
+
+}
+.c-logo
+{
+margin-left: 0px;
+margin-top: 30px;
+height: 100px;
+width: 85px;
+
+
+}
+.c-head
+{
+font-size: 40px;
+letter-spacing: 1.3mm;
+font-family:'Gill Sans';
+padding-top: 20px;
+margin-left:8px;
+
+
+}
+.java
+{
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+.j-logo
+{
+height: 150px;
+width: 250px;
+}
+.edu-style
+{
+background-image: url(Images/6222603.jpg);
+padding-bottom: 20px;
+padding-top: 20px;
+margin-left: 40px;
+margin-right: 40px;
+margin-top: 20px;
+border-radius: 40px;
+
+
+
+}
+.b-t
+{
+
+background-color: transparent;
+color: #EFEFEF;
+letter-spacing: 0.5mm;
+padding-left: 20px;
+padding-right: 50px;
+font-size: 25px;
+font-family: 'Playfair Display', serif;
+
+}
+.year
+{
+
+
+margin-top: 0px;
+font-size: 25px;
+background-color: transparent;
+}
+.college
+{
+background-color: transparent;
+margin-top: 20px;
+padding-left: 20px;
+font-size: 22px;
+letter-spacing: 0.5mm;
+}
+.ed-l
+{
+margin-left: 38px;
+margin-right: 390px;
+}
+.pro-center
+{
+margin-top: 0px;
+display: block;
+padding: 15px;
+justify-content: center;
+align-items: center;
+padding-bottom:30px;
+}
+.pro-card
+{
+
+margin-right: 40px;
+height: 400px;
+width: 400px;
+border: 3rem;
+border-color: aliceblue;
+border-radius: 30px;
+background-image: url(Images/Screenshot\ 2023-08-10\ 213915.png);
+background-position-x:90%;
+background-position-y: -25%;
+
+}
+
+.pro-title
+{
+color: rgb(255, 255, 255);
+background-color: rgba(255, 255, 255, 0);
+text-align: end;
+margin-top: 100px;
+margin-left: 80px;
+}
+
+.pro-card2
+{
+
+margin-right: 40px;
+height: 400px;
+width: 400px;
+border: 3rem;
+border-color: aliceblue;
+
+border-radius: 30px;
+background-image: url(Images/questions-1080x675.jpg);
+background-position-x:200%;
+background-position-y: 100%;
+}
+.pro-card3
+{
+
+margin-right: 40px;
+height: 400px;
+width: 400px;
+border: 3rem;
+border-color: aliceblue;
+border-radius: 30px;
+background-image: url(Images/wp5076212.jpg);
+background-position-x:200%;
+background-position-y: 30%;
+}
+.line
+{
+height: 7px;
+background-color: #EFEFEF;
+margin-left: 75px;
+margin-right: 75px;
+border-radius: 1rem;
+
+}
+
+.style-connect
+{
+margin-left: 70px;
+margin-top:600px;
+
+
+
+}
+.l-logo
+{
+margin-left: 4px;
+margin-top: 20px;
+height: 30px;
+width:30px;
+}
+
+
+form {
+background-color: #ffffff;
+padding: 10px;
+border-radius: 10px;
+box-shadow: 0 0 10px rgba(0,0,0,0.5);
+max-width: 500px;
+margin: 0 auto;
+
+}
+
+label, input, textarea {
+display: block;
+width: 100%;
+margin-bottom: 10px;
+}
+
+label {
+font-weight: bold;
+color: #000000;
+background-color:  #f7f7f7;
+letter-spacing: 0.5mm;
+}
+
+input, textarea {
+padding-bottom: 20px;
+border-radius: 5px;
+border: none;
+background-color: #EFEFEF;
+color: #333333;
+}
+
+input[type="submit"] {
+background-color: #333333;
+color: #FFFFFF;
+cursor: pointer;
+}
+
+input[type="submit"]:hover {
+background-color: #555555;
+}
+
+textarea {
+height: 150px;
+}
+
+input:focus, textarea:focus {
+outline: none;
+box-shadow: 0 0 5px rgba(0,0,0,0.5);
+}
+
+body {
+background-color: #000000;
+color: #5d5757;
+}
+footer {
+background-color: #464343;
+color: hsl(0, 0%, 100%);
+padding: 3px;
+margin-top: 200px;
+
+
+text-align: center;
+
+}
+
+.footer-content {
+display: flex;
+justify-content: space-between;
+align-items: center;
+
+}
+
+.footer-bottom {
+margin-top: 20px;
+}
+
+
+@media only screen and (min-width: 900px) {
+
+  div h1
+{
+    color: aliceblue;
     font-size: 125px;
     background-color: transparent;
     margin-top: 40px;
@@ -65,19 +483,15 @@ div h1
   animation-duration: 2s;
   
 }
-@keyframes hello2 {
-    0% {
-      left: -40%;
-    }
-    100% {
-      left: 0;
-    }
-  }
+
+
 div h3{
+  
     color: aliceblue;
-    background-color:rgba(0, 0, 0, 0);
+    background-color:rgba(1, 1, 1, 0);
     font-size: 125px;
-    margin-left: 350px;
+    margin-left: 50px;
+    padding-left: 240px;
     /* position: relative; */
   animation-name: hello3;
   animation-duration: 2s;
@@ -107,21 +521,25 @@ div h3{
 .filler-section
 {
   color: aliceblue;
+  width: 100%;
   font-size:30px;
   letter-spacing: 0.03cm;
   padding-top: 48px;
- background-color: transparent;
+ 
+  
+ background-color: rgb(0, 0, 0);
  
 }
 .bg-img
 {
   height: 250px;
-  width: 750px;
-  margin: auto;
-  margin-top: 0px;
+  width: 100%;
+  
+
   border-radius: 1.5rem;
   text-align: center;
-  background-color:black;
+  background-color:rgb(0, 0, 0);
+
   
 }
 
@@ -130,6 +548,8 @@ div h3{
   color: aliceblue;
   font-family:system-ui;
   line-height: 1.6;
+  margin-left: auto;
+  margin-right: auto;
   
 }
 .know-more
@@ -358,7 +778,7 @@ div h3{
 {
   margin-left: 100px;
   
-  
+ margin-top: 300px;
 
 }
 .l-logo
@@ -444,4 +864,6 @@ footer {
 
 .footer-bottom {
   margin-top: 20px;
+}
+
 }
